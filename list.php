@@ -45,7 +45,10 @@ AS - List all tables information and options to interact with the database
             </form>
         </tr>
         <?php endforeach ?>
-
+        <form action = "index.php" method="post"> 
+            <input type="submit" value="add_book"/>
+        </form>
+        <br>
         <h2>Movies</h2>
     <table>
         <tr>
@@ -80,6 +83,10 @@ AS - List all tables information and options to interact with the database
             </form>
         </tr>
         <?php endforeach ?>
+        <form action = "index.php" method="post"> 
+            <input type="submit" value="add_game"/>
+        </form>
+        <br>
     </table>
 
     <h2>Movies</h2>
@@ -115,6 +122,10 @@ AS - List all tables information and options to interact with the database
                     <input type="submit" value="Delete">
             </form>
         </tr>
+        <form action = "index.php" method="post"> 
+            <input type="submit" value="add_game"/>
+        </form>
+        <br>
         <?php endforeach ?>
     </table>
 </body>
